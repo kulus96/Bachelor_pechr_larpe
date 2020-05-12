@@ -1,0 +1,12 @@
+classes = 3
+width_0 = 66.63
+height_0 = 66.61
+depth_0 = 66.16
+width_1 = 66
+height_1 = 60
+depth_1 = 87
+width_2 = 48.38
+height_2 = 66.74
+depth_2 = 66.96
+
+dist_to_objects = 700

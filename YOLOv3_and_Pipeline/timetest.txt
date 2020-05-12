@@ -1,0 +1,5 @@
+Timings:
+testnr, time Yolo, time aae
+
+Fps:
+testnr, FPS, numImg, time

@@ -1,0 +1,5 @@
+classes= 3
+train = train.txt
+valid = cluster_test/validation.txt
+names = Batchelor.names
+backup = backup/
