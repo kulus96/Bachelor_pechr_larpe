@@ -28,7 +28,7 @@ When the AAE is installed the directory must be placed inside the YOLOv3 directo
 
 ## How to
 
-**[in Pipeline](YOLOv3_and_Pipeline/finalpipeline_one.py)**
+**[in Pipeline:](YOLOv3_and_Pipeline/finalpipeline_one.py)**
 - To show the AAE predictions while running, set the `Show` to 1 
 - To show the predictions made by YOLOv3, set the remove the `-dont_show` command from `argc` and change `argv` to 8
 
