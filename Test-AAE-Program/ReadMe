@@ -1,14 +1,10 @@
-Test of each AAE
-************* TO RUN THIS PROGRAM *****************
-Have installed and setup the augmented autoencoder from https://github.com/DLR-RM/AugmentedAutoencoder
+### Requirements
 
-Have a fully working and trained AAE
+- Have installed and setup the augmented autoencoder from https://github.com/DLR-RM/AugmentedAutoencoder
+- Have a fully working and trained AAE
+- Added different backgrounds to the folder <Background>
 
-Added different background to the folder "Background"
-
-**************************************************
-
-Testing the AAE by rendering images of the object and trying to find the corresponding rotation
+### Testing the AAE by rendering images of the object and trying to find the corresponding rotation
 
 1. Generate a random rotation
 
