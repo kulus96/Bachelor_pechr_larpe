@@ -6,15 +6,16 @@ The repository is part of a bachelor thesis for Robot Systems Engineering made i
 
 The repository does not include the weights trained for the objects nor does it include the videofiles used for evaluating the depth method and pipeline.
 
-## The directories are as follows:
+## Contents
 
 **Test-AAE-Program:**
-- Test program of the AAE.
+- Test program of the AAE with [instructions](Test-AAE-Program/ReadMe).
 
 **YOLO-Training-Data:**
-- The scripts used to generate the synthetic images.
+- The scripts used to generate the synthetic images with [instructions](YOLO-Training-Data/ReadMe).
 
 **YOLOv3_and_Pipeline:**
-- Implementation of the proposed pipeline.
-- Training and evaluation methods as described in https://github.com/AlexeyAB/darknet
-- Evaluation of the Depth estimation method
+- Implementation of the proposed [pipeline](YOLOv3_and_Pipeline/finalpipeline_one.py).
+- Implementation of the proposed [depth estimation method](YOLOv3_and_Pipeline/src/DetectorControl.cpp)
+- Training and evaluation methods of YOLOv3 as described [here](https://github.com/AlexeyAB/darknet)
+- Evaluation of the [Depth estimation method](YOLOv3_and_Pipeline/Depth_Test.py)
