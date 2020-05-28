@@ -19,3 +19,17 @@ The repository does not include the weights trained for the objects nor does it 
 - Implementation of the proposed [depth estimation method](YOLOv3_and_Pipeline/src/DetectorControl.cpp)
 - Training and evaluation methods of YOLOv3 as described [here](https://github.com/AlexeyAB/darknet)
 - Evaluation of the [Depth estimation method](YOLOv3_and_Pipeline/Depth_Test.py)
+
+## Requirements
+
+1. Have YOLOv3 installed
+2. Have AAE installed
+When the AAE is installed the directory must be placed inside the YOLOv3 directory. 
+
+## How to
+
+**Pipeline**
+- To show the AAE predictions while running, set the `Show` to 1 
+- To show the predictions made by YOLOv3, set the remove the `-dont_show` command from `argc` and change `argv` to 8
+
+
