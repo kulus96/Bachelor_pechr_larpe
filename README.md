@@ -5,6 +5,13 @@ The repository contains of a pipeline implementing a YOLOv3, an AAE and a depth 
 The repository is part of a bachelor thesis for Robot Systems Engineering made in the spring of 2020 on University of Southern Denmark. The project is made by Lars Pedersen and Peter Christiansen.
 
 The repository does not include the weights trained for the objects nor does it include the videofiles used for evaluating the depth method and pipeline.
+## Abstract
+
+We propose a pipeline, which returns 6D pose information of objects given an RGB image. The pipeline is based on YOLOv3 for object detections, three AAEs for rotation estimation and a depth estimation method based on the pinhole model principles. We examine the effects on the performance of YOLOv3 when trained on synthetic CAD generated images and a mixture of real and synthetic images to potentially eliminate the need for manually annotating training sets for CNNs.
+
+The methods are evaluated using three different objects. YOLOv3 is evaluated to a mAP of 41.01% on weights trained on synthetic images and a mAP of 99.21% on the mixture of CAD and real training images. The detector is further evaluated in a environment with the objects placed in a cluttered manner achieving a mAP of 20.87% and 93.92% for the synthetic and the mixed trained weights respectively.
+The AAEs are evaluated to an average of 50.5%, 81.5% and 62.5% across the three AAEs. 
+The depth estimation method is evaluated to a precision of +- 5.38% in the best case and +- 14.76% in the worst case. The depth estimation is sensitive to rotation of the objects finding an increase in error of 981.7\%, when an object is rotated by 90 degree.
 
 ## Contents
 
