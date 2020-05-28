@@ -2,7 +2,7 @@
 
 The repository contains of a pipeline implementing a YOLOv3, an AAE and a depth estimation method. YOLOv3 is a fork from https://github.com/AlexeyAB/darknet with a few insignificant changes, and AAE is from https://github.com/DLR-RM/AugmentedAutoencoder. Furthermore it contains a proposed program to generate syntetic images from CAD models.
 
-The repository is part of a bachelor thesis for Robot Systems Engineering made in the spring of 2020 on University of Southern Denmark.
+The repository is part of a bachelor thesis for Robot Systems Engineering made in the spring of 2020 on University of Southern Denmark. The project is made by Lars Pedersen and Peter Christiansen.
 
 The repository does not include the weights trained for the objects nor does it include the videofiles used for evaluating the depth method and pipeline.
 
