@@ -31,6 +31,7 @@ The depth estimation method is evaluated to a precision of +- 5.38% in the best 
 
 1. Have YOLOv3 installed
 2. Have AAE installed
+
 When the AAE is installed the directory must be placed inside the YOLOv3 directory. 
 
 ## How to
