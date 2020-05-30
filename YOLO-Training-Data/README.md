@@ -1,6 +1,6 @@
 ### Contents
 ## 1.3DToTrain
-# Requirements
+### Requirements
 - Added 3D models to the "3DModel" folder (.obj or .ply).
 - Added background images to the "BackgroundImages" folder.
 - Configurations can be made in the file "createData.cfg".
@@ -12,19 +12,19 @@
 - Dividing all the images in to sets (Training, validation, and test).
 
 ## 2.AugmentRealImages
-# Requirements
+### Requirements
 - Added images and annotation files to the folder "Images".
 - Changes in configurations can be made in the "AugmentRealImages.py" file.
-# Flow of the program
+### Flow of the program
 - Taking real images with annotations.
 - Making duplicates with augmentations.
 - Dividing into sets.
 
 ## 3.CombiningImages
-# Requirements
+### Requirements
 - Added images to the folder 
 - Configurations can be made in the "CombingImagesInSets.py" file.
-# Flow of the program
+### Flow of the program
 - Annotations and images needs to be ready.
 - Making sets of the images and the corresponding annotation files.
 - Making the annotation file list.
