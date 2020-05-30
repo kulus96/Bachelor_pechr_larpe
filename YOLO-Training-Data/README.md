@@ -4,7 +4,7 @@
 - Added 3D models to the "3DModel" folder (.obj or .ply).
 - Added background images to the "BackgroundImages" folder.
 - Configurations can be made in the file "createData.cfg".
-# Flow of the program
+### Flow of the program
 - Render images with no background from CAD models.
 - Using the rendered images and adding background.
 - Augment the images.
